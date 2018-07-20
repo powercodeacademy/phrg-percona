@@ -11,3 +11,9 @@ The percona technology we use is called [Percona Toolkit](https://www.percona.co
 The are various reasons Percona may prevent one of your migrations from running locally, or in production. One item to take note of is that we use a Ruby gem called [Departure](https://github.com/departurerb/departure) to wrap around pt-online-schema-change validations. If you encounter an error pointing towards a `Departure` class, it means there is an issue your migration/database and percona.
 
 If confused by a percona related error, it is best to best to take your questions to a senior developer at Power. Steps to recover from a database issue vary, and change frequently as we build Nitro.
+
+## Resources
+
+- [Percona](https://www.percona.com/)
+- [pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/LATEST/pt-online-schema-change.html)
+- [Departure](https://github.com/departurerb/departure)
